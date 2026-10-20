@@ -9,7 +9,7 @@
 
 #set the working directory so that we can use relative path names
 getwd()
-#####setwd("C:/Users/dgd45125/Documents/git_workshop/template_project_directory/")
+setwd("C:/Users/jla96640/Desktop/git_github_rstudio_workshop/template_project_directory/")
 
 #You can also set the working directory by using the Files pane -> navigate to 
 #your desired directory -> ore -> "set as working directory"
@@ -50,6 +50,7 @@ model <-  aov(petal_length ~ class, data = iris_df)
 summary(model)
 #with very large F and very low p-value, we conclude that there
 #exists some difference in petal length means between iris classes.
+## this is a random change
 
 
 #next, apply posthoc comparison to identify which classes (pairwise) are different from each other.
